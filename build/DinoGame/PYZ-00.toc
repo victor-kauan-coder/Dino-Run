@@ -1,4 +1,4 @@
-('C:\\Users\\kauan\\Documents\\Code\\DinoGame\\build\\DinoGame\\PYZ-00.pyz',
+('C:\\Users\\kauan\\Documents\\Code\\DinoGame\\Dino-Run\\build\\DinoGame\\PYZ-00.pyz',
  [('__future__',
    'C:\\Program Files\\Python312\\Lib\\__future__.py',
    'PYMODULE'),

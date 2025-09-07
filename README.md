@@ -6,6 +6,7 @@ This project was created for learning and fun, using **Pygame** and custom graph
 ---
 
 ## 🚀 Technologies Used
+
 - **Python 3.12+**
 - **Pygame** (for graphics and game logic)
 - **cx_Freeze** (to generate the `.exe`)
@@ -17,14 +18,13 @@ This project was created for learning and fun, using **Pygame** and custom graph
 
 ```
 dino/
-├── dino.py              # Main game script
-├── dino2.py             # Alternative version of the game
-├── setup.py             # Setup script for build
-├── build/               # Folder containing compiled version
-│   ├── exe.win-amd64-3.12/
-│   │   ├── dino.exe     # Windows executable
-│   │   └── imagem/      # Game sprites
-└── assets/ (future place to organize images if needed)
+├── dino.py             # Main game script
+├── imagem/             # Folder for game images
+├── som/                # Folder for game sounds
+├── dist/               # Folder containing the compiled version
+│   └── DinoGame.exe    # Windows executable
+├── build/              # Temporary build files
+└── DinoGame.spec       # PyInstaller configuration file
 ```
 
 ---
@@ -32,7 +32,8 @@ dino/
 ## 🕹️ How to Play
 
 ### 🔹 Running with Python
-1. Make sure you have **Python 3.12+** installed.  
+
+1. Make sure you have **Python 3.12+** installed.
 2. Install dependencies:
    ```bash
    pip install pygame
@@ -43,25 +44,27 @@ dino/
    ```
 
 ### 🔹 Running on Windows (compiled version)
+
 1. Go to the folder:
    ```
-   build/exe.win-amd64-3.12/
+   dist/
    ```
-2. Double-click **`dino.exe`**.  
+2. Double-click **`dino.exe`**.
 3. Enjoy the game 🦖!
 
 ---
 
 ## 🎮 Controls
-- **Spacebar** → Jump  
-- **Arrow Down** → Duck  
-- **ESC** → Exit the game  
+
+- **Spacebar** → Jump
+- **Arrow Down** → Duck
+- **ESC** → Exit the game
 
 ---
 
 ## 📸 Demo
-👉 Here you can add **screenshots** or even a **GIF of gameplay**.  
-Example of adding a GIF to the README:  
+
+Example of adding a GIF to the README:
 
 ```markdown
 ![Dino Game Demo](path/to/your_gif.gif)
@@ -70,17 +73,34 @@ Example of adding a GIF to the README:
 ---
 
 ## 🛠️ Build the Executable
+
 If you want to recreate the `.exe` yourself:
+
+1. Install Dependencies:
+
+First, ensure you have all the necessary packages for running and building the game. You can install them with pip:
+
 ```bash
-python setup.py build
+pip install pygame pyinstaller
 ```
-The executable will be generated inside the `build/` folder.
+
+2. Run the Build Script:
+
+Navigate to the project's root folder in your terminal and execute the build script:
+
+```bash
+python build.py
+```
+
+The script will automatically run PyInstaller with the correct configuration (bundling assets, hiding the console window, etc.).
+The final DinoGame.exe file will be generated inside the dist/ folder.
 
 ---
 
 ## 👤 Author
-- **Victor Miranda**  
-  - 🌐 [LinkedIn](https://www.linkedin.com/in/victor-miranda-5005ab304)  
-  - 💻 GitHub: [@victor-kauan-coder](https://github.com/victor-kauan-coder)  
+
+- **Victor Miranda**
+  - 🌐 [LinkedIn](https://www.linkedin.com/in/victor-miranda-5005ab304)
+  - 💻 GitHub: [@victor-kauan-coder](https://github.com/victor-kauan-coder)
 
 ---

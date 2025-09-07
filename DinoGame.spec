@@ -5,7 +5,7 @@ a = Analysis(
     ['dino.py'],
     pathex=[],
     binaries=[],
-    datas=[('imagem', 'imagem'), ('som', 'som')],
+    datas=[('images', 'images'), ('songs', 'songs')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
