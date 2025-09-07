@@ -64,11 +64,9 @@ dino/
 
 ## 📸 Demo
 
-Example of adding a GIF to the README:
+GamePlay:
 
-```markdown
 ![Dino Game Demo](demo/demo_dino.gif)
-```
 
 ---
 
