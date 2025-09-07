@@ -31,8 +31,8 @@ SCREEN_HEIGHT = 480
 
 # Get the absolute path for the game's directories
 main_dir = os.path.dirname(__file__)
-image_dir = os.path.join(main_dir, 'imagem')
-sound_dir = os.path.join(main_dir, 'som')
+image_dir = os.path.join(main_dir, 'images')
+sound_dir = os.path.join(main_dir, 'songs')
 
 # Load Sounds
 jump_sound = pygame.mixer.Sound(os.path.join(sound_dir, 'jump_sound.wav'))

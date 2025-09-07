@@ -19,8 +19,8 @@ This project was created for learning and fun, using **Pygame** and custom graph
 ```
 dino/
 ├── dino.py             # Main game script
-├── imagem/             # Folder for game images
-├── som/                # Folder for game sounds
+├── images/             # Folder for game images
+├── songs/                # Folder for game sounds
 ├── dist/               # Folder containing the compiled version
 │   └── DinoGame.exe    # Windows executable
 ├── build/              # Temporary build files
@@ -67,7 +67,7 @@ dino/
 Example of adding a GIF to the README:
 
 ```markdown
-![Dino Game Demo](path/to/your_gif.gif)
+![Dino Game Demo](demo/demo_dino.gif)
 ```
 
 ---
