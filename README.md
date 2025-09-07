@@ -15,18 +15,17 @@ This project was created for learning and fun, using **Pygame** and custom graph
 
 ## 📂 Project Structure
 
+```
 dino/
-├── dino.py # Main game script
-├── dino2.py # Alternative version of the game
-├── setup.py # Setup script for build
-├── build/ # Folder containing compiled version
-│ ├── exe.win-amd64-3.12/
-│ │ ├── dino.exe # Windows executable
-│ │ └── imagem/ # Game sprites
+├── dino.py              # Main game script
+├── dino2.py             # Alternative version of the game
+├── setup.py             # Setup script for build
+├── build/               # Folder containing compiled version
+│   ├── exe.win-amd64-3.12/
+│   │   ├── dino.exe     # Windows executable
+│   │   └── imagem/      # Game sprites
 └── assets/ (future place to organize images if needed)
-
-yaml
-Copiar código
+```
 
 ---
 
@@ -38,50 +37,50 @@ Copiar código
    ```bash
    pip install pygame
    ```
-Run the game:
+3. Run the game:
+   ```bash
+   python dino.py
+   ```
 
+### 🔹 Running on Windows (compiled version)
+1. Go to the folder:
+   ```
+   build/exe.win-amd64-3.12/
+   ```
+2. Double-click **`dino.exe`**.  
+3. Enjoy the game 🦖!
 
- ```bash
-python dino.py
- ```
-🔹 Running on Windows (compiled version)
-Go to the folder:
+---
 
-```bash
-build/exe.win-amd64-3.12/
-```
-Double-click dino.exe.
+## 🎮 Controls
+- **Spacebar** → Jump  
+- **Arrow Down** → Duck  
+- **ESC** → Exit the game  
 
+---
 
-Enjoy the game 🦖!
+## 📸 Demo
+👉 Here you can add **screenshots** or even a **GIF of gameplay**.  
+Example of adding a GIF to the README:  
 
-🎮 Controls
-Spacebar → Jump
-
-Arrow Down → Duck
-
-ESC → Exit the game
-
-📸 Demo
-👉 Here you can add screenshots or even a GIF of gameplay.
-Example of adding a GIF to the README:
-
-markdown
-Copiar código
+```markdown
 ![Dino Game Demo](path/to/your_gif.gif)
-
-🛠️ Build the Executable
-If you want to recreate the .exe yourself:
-
-```bash
-Copiar código
-python setup.py build
-The executable will be generated inside the build/ folder.
 ```
 
-👤 Author
-Victor Miranda
+---
 
-🌐 LinkedIn: https://www.linkedin.com/in/victor-miranda-5005ab304
+## 🛠️ Build the Executable
+If you want to recreate the `.exe` yourself:
+```bash
+python setup.py build
+```
+The executable will be generated inside the `build/` folder.
 
-💻 GitHub: @victor-kauan-coder
+---
+
+## 👤 Author
+- **Victor Miranda**  
+  - 🌐 [LinkedIn](https://www.linkedin.com/in/victor-miranda-5005ab304)  
+  - 💻 GitHub: [@victor-kauan-coder](https://github.com/victor-kauan-coder)  
+
+---
